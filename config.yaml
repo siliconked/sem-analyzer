@@ -1,0 +1,44 @@
+# Real SEM Pipeline Configuration
+# Brand website to analyze
+brand_website: "https://dodopayments.com"
+
+# SerpAPI key (REQUIRED - get from https://serpapi.com/)
+serpapi_key: a16c0b56fd5c19007c057933aa22d1eb3bf4daf3
+
+# Competitor websites for analysis (optional)
+competitor_websites:
+  - "https://stripe.com"
+  - "https://paddle.com"
+  - "https://lemonsqueezy.com"
+
+# Target locations for keyword research
+target_locations:
+  - "United States"
+  - "United Kingdom"
+  - "Canada"
+
+# Target language
+target_language: "en"
+
+# Monthly budget allocation (USD)
+search_budget: 2000.0
+pmax_budget: 1750.0
+shopping_budget: 0.0  # Set to 0 for service businesses
+
+# Performance targets
+conversion_rate: 0.02      # 2% conversion rate assumption
+min_search_volume: 100     # Minimum monthly search volume
+max_cpc: 10.0             # Maximum CPC to consider
+
+# API keys
+openai_api_key: ""        # Optional: for AI-powered keyword generation
+
+# Advanced settings
+keyword_limit: 150        # Limit keywords to research (SerpAPI quota management)
+competitor_analysis: true # Enable competitor keyword analysis
+
+# Analysis settings
+target_audience: "business"  # business, consumer, or mixed
+business_focus: "growth"     # growth, efficiency, or awareness
+
+
